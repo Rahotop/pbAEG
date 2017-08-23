@@ -1,5 +1,5 @@
 # pbAEG
-Problème d'accessibilité et d'exploitabilité dans un graph
+Problème d'accessibilité et d'exploitabilité dans un graphe
 
 ./compile.sh\
 Compile et créé l'executable "ter"
@@ -18,12 +18,12 @@ opt :\
 
 
 ./create.sh\
-Créé un graph
+Créé un graphe
 
 opt :\
 -o ; change le chemin de création (graph.txt par défaut).\
--g ; créé un graph grille.\
+-g ; créé un graphe grille.\
 -gr ; créé un graphe grille avec des poids aléatoires.\
--n 5 ; nombre de noeud dans le graph fixé à 5, Pour -g et -gr ce sera 5x5 (100 par défaut).\
+-n 5 ; nombre de noeud dans le graphe fixé à 5, Pour -g et -gr ce sera 5x5 (100 par défaut).\
 -w 100 ; poid maximum fixé à 100 (1000 par défaut).\
--d 70; densité du graph fixée à 70% (50% par défaut).
+-d 70; densité du graphe fixée à 70% (50% par défaut).
